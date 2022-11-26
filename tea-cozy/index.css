@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+}
+.logo-img {
+  height: 50px;
+}
+.nav li {
+  display: inline;
+}
+.nav li a {
+  color: seashell;
+  margin: 0 10px;
+}
+.nav li a:hover {
+  opacity: 0.8;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+  section {
+    width: 1100px;
+  }
+
+/* banner */
+.banner{
+  height: 700px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-image: url("images/img-mission-background.jpg");
+  background-size: cover;
+  margin-bottom: 70px;
+}
+.banner-text {
+  background-color: black;
+  padding: 15px;
+}
+h4 {
+  margin-top: 20px;
+}
+
+/* Tea of the Month */
+.tea-img {
+  width: 300px;
+  height: 200px;
+}
+.tea-types {
+  margin: 30px auto;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tea-type {
+  margin: 15px;
+}
+p.tea-img-caption {
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* locations */
+.locations-section {
+  height: 500px;
+  background-image: url('images/img-locations-background.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  margin: 15px 20px;
+  width: 300px;
+  height: 250px;
+  background: black;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* footer */
+.contact-info {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.copyright {
+  float: left;
+  font-size: small;
+  font-weight: bold;
+  padding: 20px;
+}
